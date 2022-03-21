@@ -18,7 +18,7 @@ app.use('/api/todo', require('./routes/todo.route'))
 
 async function start() {
     try {
-        await mongoose.connect('mongodb+srv://admin:admin@cluster0.vo4vq.mongodb.net/todo?retryWrites=true&w=majority', {
+        await mongoose.connect('mongodb+srv://******:******@cluster0.vo4vq.mongodb.net/todo?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
