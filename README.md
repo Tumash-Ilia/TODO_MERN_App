@@ -1,11 +1,11 @@
-Hlavní požadavky na aplikaci:
+## Hlavní požadavky na aplikaci:
 
--Implementovat buď SPA +  backend API nebo server side rendering aplikaci
--Klient i server kód v JavaScriptu, HTML5 a CSS3. Pokud chcete pro server využít jiný jazyk, je to po domluvě možné.
--Dodržet základní bezpečnostní pravidla - ochrana proti XSS, SQL injection atd.
--Vhodným způsobem využít  JavaScript také pro klienta - kontrola formuláře, interakce s uživatelem apod.
--Validní HTML a CSS
--Persitentní uložení dat na serveru
+- Implementovat buď SPA +  backend API nebo server side rendering aplikaci
+- Klient i server kód v JavaScriptu, HTML5 a CSS3. Pokud chcete pro server využít jiný jazyk, je to po domluvě možné.
+- Dodržet základní bezpečnostní pravidla - ochrana proti XSS, SQL injection atd.
+- Vhodným způsobem využít  JavaScript také pro klienta - kontrola formuláře, interakce s uživatelem apod.
+- Validní HTML a CSS
+- Persitentní uložení dat na serveru
 
 Cílem je vytvořit jednoduchý TODO list / seznam úkolů.
 
@@ -17,18 +17,18 @@ Základem je  implementovat kompletní CRUD operace pro úkol a dále jednoduch�
 
 Nemusíte ale dělat kompletní správu uživatelů, několik napevno zapsaných v databázi pro testování je dostatečné. Také můžete použít OpenId a podobné služby.
 
-Požadovaná funkčnost:
+## Požadovaná funkčnost:
 
--zobrazení úkolů
--filtr splněných / nesplněných úkolů 
--možnost zobrazení výstupu ve formátech HTML a JSON - přepínání formátu parametrem v URL nebo dle vaší volby (zdokumentovat)
--json výstup je určený pro další aplikace, musí tedy mít správný content-type a být validní dle JSON pravidel
--administrace úkolů - přidání, úprava, smazání, označit jako hotový
--přihlášení uživatele, zabezpečení administrace úkolů před anonymním přístupem
--Další funkce jsou vítané, záleží jen na vašich schopnostech. Můžete například přidat více uživatelů a pro každého vytvořit extra seznam. Nebo přidat možnost úkolovat 
+- zobrazení úkolů
+- filtr splněných / nesplněných úkolů 
+- možnost zobrazení výstupu ve formátech HTML a JSON - přepínání formátu parametrem v URL nebo dle vaší volby (zdokumentovat)
+- json výstup je určený pro další aplikace, musí tedy mít správný content-type a být validní dle JSON pravidel
+- administrace úkolů - přidání, úprava, smazání, označit jako hotový
+- přihlášení uživatele, zabezpečení administrace úkolů před anonymním přístupem
+- Další funkce jsou vítané, záleží jen na vašich schopnostech. Můžete například přidat více uživatelů a pro každého vytvořit extra seznam. Nebo přidat možnost úkolovat 
 jiné uživatele. 
 
-Pro realizaci projektu byl použit MERN stack.
+## Pro realizaci projektu byl použit MERN stack.
 
 - MongoDB - document database
 - Express(.js) - Node.js web framework
